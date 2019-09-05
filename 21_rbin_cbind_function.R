@@ -1,4 +1,4 @@
-# "cbind()" ve "rbind()" Fonksiyonları ile İki data Frame'in birleştirilmesi
+# "cbind()" ve "rbind()" FonksiyonlarÄ± ile Ä°ki data Frame'in birleÅŸtirilmesi
 
 
 df1 <- data.frame("Var1" = c("AB" , "BC" , "DB" , "CD"),
@@ -11,8 +11,8 @@ df2 <- data.frame("Var1" = c("AB" , "BC" , "DB"),
                   "Var3" = c(10,1,23),
                   "Var4" = c(11,1,34))
 
-## Sütünlar Bazında Ekeleme
-# Satır sayıları eşit olmalı
+## SÃ¼tÃ¼nlar BazÄ±nda Ekeleme
+# SatÄ±r sayÄ±larÄ± eÅŸit olmalÄ±
 df3 <- cbind(df1 , df2)
 class(df3)
 
@@ -20,7 +20,7 @@ names(iris)
 df4 <- cbind(iris,iris)
 
 
-## Satırlar Bazında Ekleme
-# Sütün sayısıları eşit ve aynı değişken isimlerinde olmalı.
+## SatÄ±rlar BazÄ±nda Ekleme
+# SÃ¼tÃ¼n sayÄ±sÄ±larÄ± eÅŸit ve aynÄ± deÄŸiÅŸken isimlerinde olmalÄ±.
 rbind(df1,df2)
 rbind(iris , iris)
