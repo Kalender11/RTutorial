@@ -1,0 +1,2 @@
+# Çalışma dizinindeki dosyaların alınması
+
