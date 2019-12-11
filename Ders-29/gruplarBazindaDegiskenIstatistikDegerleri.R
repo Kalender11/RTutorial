@@ -2,7 +2,8 @@
 # grup değişkenine göre istatistiklerinin elde edilmesi
 # ------------------------------------------------------
 
-setwd('/home/sergen/Desktop/FF/RTutorial/Ders-28')
+# Veri setine ulaşabileceğiniz link
+# https://www.kaggle.com/ronitf/heart-disease-uci/download
 
 list.files()
 df <- read.csv('heart.csv' , header = T , sep=",")
