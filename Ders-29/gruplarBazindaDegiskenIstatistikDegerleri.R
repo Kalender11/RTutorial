@@ -25,7 +25,10 @@ aggregate( df$chol , by = list(Group=df[['sex']])  , FUN=mean) # Hatalı
 aggregate(df[c('trestbps','chol')], by=list(Group=df[['sex']]), FUN=mean)
 aggregate(df[c('trestbps','chol' , 'ca')], by=list(Group=df[['sex']]), FUN=mean)
 
+
 # Gruplara göre diğer istatistiksel hesaplamaların yapılması
+# ---------------------------------------------------------------------------
+
 
 # Standart sapma
 aggregate(df[c('trestbps','chol')], by=list(Group=df[['sex']]), FUN=sd)
